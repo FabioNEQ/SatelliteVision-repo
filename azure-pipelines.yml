@@ -20,5 +20,5 @@ steps:
     location: 'East US 2'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateInfrastructureSatelliteVisionApp/azuredeploy.json'
-    overrideParameters: '-projectName SVisionPro -linkedTemplateUri https://raw.githubusercontent.com/FabioNEQ/SatelliteVision-repo/master/CreateInfrastructureSatelliteVisionApp/linkedStorageAccount.json?token=ACHQXO6OVFW24L7JYE4UMWK65GHFC'
+    overrideParameters: '-projectName SVisionPro -linkedTemplateUri https://raw.githubusercontent.com/FabioNEQ/SatelliteVision-repo/master/CreateInfrastructureSatelliteVisionApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
